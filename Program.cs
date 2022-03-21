@@ -10,7 +10,7 @@ namespace Stunde_3
     {
         static void Main(string[] args)
         {
-            utzguhijokl
+            
         }
     }
 }
