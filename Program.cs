@@ -11,9 +11,9 @@ namespace Stunde_3
         static void Main(string[] args)
         {
             //Datetypengrößen
-            short a0= short.MaxValue;
+            short a0 = short.MaxValue;
             short a1 = short.MinValue;
-            ushort a2 = 2*short.MaxValue + 1;
+            ushort a2 = 2 * short.MaxValue + 1;
             int b = int.MaxValue;
             long c = long.MaxValue;
             Console.WriteLine("Short : " + a0 + " Int; " + b + " Long:" + c);
@@ -27,7 +27,7 @@ namespace Stunde_3
             {
                 Console.WriteLine("Das Ergebnis ist größer als 10");
             }
-            else if (x+y ==10)
+            else if (x + y == 10)
             {
                 Console.WriteLine("Das Ergebnis ist genau 10");
 
@@ -41,7 +41,7 @@ namespace Stunde_3
             //Wiederholte Abläufe
 
             int zähler = 0;
-            while (zähler>-100)
+            while (zähler > -100)
             {
                 Console.WriteLine("Der Zähler ist :" + zähler);
                 //zähler = zähler + 1;
@@ -55,7 +55,7 @@ namespace Stunde_3
                 zähler2++;
 
 
-            } while (zähler2 < 10);
+            } while (zähler2 <= 10);
             for (int i = 0; i < 10; i++)
             {
                 Console.WriteLine(i);
@@ -64,15 +64,18 @@ namespace Stunde_3
             //Der Benutzer soll nach zwei ganzen zahlen befragt werden,
             //falls die Summe größer als 125 ist soll das Programm beendet werden
             //ansonsten von vor beginnen
-                  int a, f;
-                  do
-                  { 
-                     Console.WriteLine("Bitte nacheinander zwei ganze Zahlen eingeben");
-                     Console.Write("a=");
-                     a = Convert.ToInt32(Console.ReadLine());
-                     Console.Write("b=");
-                     f = Convert.ToInt32(Console.ReadLine());
-                  } while (a + f < 125);
+            int a, f;
+            do
+            {
+                Console.WriteLine("Bitte nacheinander zwei ganze Zahlen eingeben");
+                Console.Write("a=");
+                a = Convert.ToInt32(Console.ReadLine());
+                Console.Write("b=");
+                f = Convert.ToInt32(Console.ReadLine());
+            } while (a + f < 125);
+        }
+    }
+}
 
 
 
@@ -81,5 +84,5 @@ namespace Stunde_3
 
 
 
-        }
-    }
+        
+    
