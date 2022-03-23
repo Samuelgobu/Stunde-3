@@ -64,47 +64,20 @@ namespace Stunde_3
             //Der Benutzer soll nach zwei ganzen zahlen befragt werden,
             //falls die Summe größer als 125 ist soll das Programm beendet werden
             //ansonsten von vor beginnen
-            //      int a, f;
-            //      do
-            //      { 
-                //     Console.WriteLine("Bitte nacheinander zwei ganze Zahlen eingeben");
-                //     Console.Write("a=");
-                //     a = Convert.ToInt32(Console.ReadLine());
-                //     Console.Write("b=");
-                //     f = Convert.ToInt32(Console.ReadLine());
-            //      } while (a + f < 125);
+                  int a, f;
+                  do
+                  { 
+                     Console.WriteLine("Bitte nacheinander zwei ganze Zahlen eingeben");
+                     Console.Write("a=");
+                     a = Convert.ToInt32(Console.ReadLine());
+                     Console.Write("b=");
+                     f = Convert.ToInt32(Console.ReadLine());
+                  } while (a + f < 125);
 
 
 
 
-            //Der Benutzer soll nach einer jahreszahle gefragt werden und es
-            //soll ausgegeben werden ob es sich um ein Shaltjahr handelt
-
-            int h;
-            
-            
-            Console.WriteLine("Bitte schreiben Sie ein jahr und das Programm wird zeigen, ob es ein Schaltjahr ist oder nein");
-            Console.WriteLine("Jahr=");
-            h = Convert.ToInt32(Console.ReadLine());
-
-            if (h % 4 == 0)
-            {
-                Console.WriteLine("Das ist ein Schaltjahr");
-            }
-            else
-            {
-                Console.WriteLine("Das ist kein Schaltjahr");
-            }
-
-
-
-
-
-
-
-
-
-            }
+           
 
 
 
